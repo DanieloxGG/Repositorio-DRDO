@@ -1,3 +1,5 @@
+# Programa que realiza la suma, resta y multiplicación de dos números.
+
 var1=int(input("Introduce un número: "))
 var2=int(input("Introduce otro número: "))
 print("")
