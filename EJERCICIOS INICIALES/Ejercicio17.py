@@ -8,7 +8,7 @@ print("")
 
 imc=peso/alt**2
 
-print(f"Si pesas {peso} kg y mides {alt} metros, tu IMC es de {round(imc)} kg por metro al cuadrado.")
+print(f"Si pesas {peso} kg y mides {alt} metros, tu IMC es de {round(imc, 2)} kg por metro al cuadrado.")
 
 if imc == 25 or imc > 25:
     print("Tienes sobrepeso.")
