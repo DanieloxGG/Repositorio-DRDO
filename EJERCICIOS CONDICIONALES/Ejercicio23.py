@@ -6,7 +6,11 @@ print("")
 nota=float(input("Introduce la nota que has sacado: "))
 print("")
 
-if nota > 10 or nota < 0:
+# Pongo el "round(x, 2) para redondear la nota y que quede más bonito."
+
+if nota > 10:
+    print("El número introducido no está entre 0 y 10.")
+elif nota < 0:
     print("El número introducido no está entre 0 y 10.")
 elif nota >= 5:
     if nota >= 6.5:
