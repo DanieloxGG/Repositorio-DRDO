@@ -7,9 +7,10 @@ print("La frase es: A quien madruga Dios ayuda.")
 frase="A quien madruga Dios ayuda."
 
 palabra=input("Introduce una palabra, que esté en la frase o que no esté: ")
+print("")
 
 if frase.__contains__(palabra):
-    print(f"La palabra {palabra} está en la frase.")
+    print(f"La palabra {palabra} está en la frase, en el índice {frase.index(palabra)}.")
 else:
     print(f"La palabra {palabra} no está en la frase.")
 
