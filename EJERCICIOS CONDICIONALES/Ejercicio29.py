@@ -8,3 +8,4 @@ print("")
 # "len()" detecta la longitud de lo que haya dentro.
 
 print(f"La longitud de la frase es de {len(frase)} carácteres.")
+print("")
