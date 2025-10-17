@@ -5,11 +5,13 @@ print("")
 letra=input("Introduce una letra, mayúscula o minúscula: ")
 print("")
 
+# "isupper()" y "islower()" detectan si una letra es mayúscula o minúscula, respectivamente.
+
 if letra.isupper():
     print(f"La letra {letra} está en mayúscula.")
 if letra.islower():
     print(f"La letra {letra} está en minúscula.")
 if not letra.islower() and not letra.isupper():
-    print(f"El valor introducido no es una letra.")
+    print(f"La letra {letra} está en ¿?.")
 print("")
 
