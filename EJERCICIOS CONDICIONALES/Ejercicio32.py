@@ -4,8 +4,10 @@
 print("")
 print("La frase es: A quien madruga Dios ayuda.")
 frase="A quien madruga Dios ayuda."
+# Transformamos la frase en todo minúsculas.
 frase=frase.lower()
 palabra=input("Introduce una palabra, que esté en la frase o que no esté: ")
+# Transformamos la palabra introducida también en minúsculas.
 palabra=palabra.lower()
 print("")
 
