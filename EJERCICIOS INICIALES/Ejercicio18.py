@@ -3,10 +3,11 @@
 # de 18 años un 50%. Si la entrada cuesta 12 euros, calcula el total a pagar introduciendo por 
 # teclado el número de menores y el número de adultos que asisten al cine.
 
-# Pongo el int por si a algún gracioso se le ocurre poner un número decimal de personas.
-
 men=float(input("¿Cuantos menores de 18 años hay?: "))
 may=float(input("¿Cuantos adultos hay?: "))
+
+# El siguiente condicional comprueba si hay un número decimal de personas:
+
 if round(may) == may and round(men) == men:
     print("")
 
