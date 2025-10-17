@@ -4,7 +4,7 @@
 num1=float(input("Introduce el primer número: "))
 num2=float(input("Introduce el segundo número: "))
 
-if num1 < 1 or num1 > 10 or num2 < 1 or num2 > 10:
+if num1 < 0 or num1 > 10 or num2 < 0 or num2 > 10:
     print("Uno de los números o ambos números están fuera de los límites del programa.")
 else: 
     if num1 > num2:
