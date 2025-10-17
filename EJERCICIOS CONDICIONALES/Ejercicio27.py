@@ -5,6 +5,8 @@ print("")
 letra=input("Introduce una letra, mayúscula o minúscula: ")
 print("")
 
+# "isnumeric()" detecta si el valor es un número.
+
 if letra.isupper():
     print(f"La letra {letra} está en mayúscula.")
 if letra.islower():
