@@ -1,0 +1,5 @@
+print("NUEVO PASSWORD, INSTRUCCIONES:")
+print("")
+print("1. La longitud de la password debe tener entre 6 y 8 carácteres.")
+print("2. En cada posición se deben cumplir los siguientes requisitos.")
+print("    Posición 1:")
