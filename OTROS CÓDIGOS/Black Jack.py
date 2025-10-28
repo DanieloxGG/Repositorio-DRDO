@@ -10,6 +10,7 @@ elegcrup=0
 numcrupier=0
 
 print("--------------------------------")
+print("")
 print("¡Bienvenido a Black Jack!")
 print("")
 input("Escribe cualquier cosa para comenzar: ")
@@ -113,6 +114,7 @@ while juego==1:
         print("")
         juego=0
 
+print("--------------------------------")
 
 
 
