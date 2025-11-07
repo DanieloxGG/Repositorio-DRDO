@@ -6,5 +6,7 @@ num=int(input("Introduce el número de veces: "))
 
 print("")
 
-for int in range(1,num+1):
+# El "range(0,x)"" establece cuantas veces se repite lo que hay dentro del bucle.
+
+for int in range(0,num):
     print(f"{nom}")
