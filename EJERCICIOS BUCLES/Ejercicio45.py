@@ -2,13 +2,14 @@
 # distinguiendo vocales y las consonantes.
 
 palabra=input("Introduce una palabra: ")
+palabra=palabra.lower()
 indice=0
 vocpalabra=""
 conpalabra=""
 
 # Pongo vocales con acentos por si acaso.
 
-vocales="aeiouAEIOUÁÉÍÓÉÀÈÌÒÙ"
+vocales="aeiouáéíóúàèìòù"
 
 for i in range(0,len(palabra)):
     if palabra[indice] in vocales:
