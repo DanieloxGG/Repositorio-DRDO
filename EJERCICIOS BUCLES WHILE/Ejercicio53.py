@@ -13,4 +13,6 @@ while input("¿Quieres seguir el programa? (S/N): ") == "S":
     suma=suma+a+b
     print("")
 print("Programa finalizado.")
+print("")
+
 print(f"Has repetido el programa {rep} veces, y la suma total es de {suma}")

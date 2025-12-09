@@ -7,3 +7,4 @@ while input("¿Quieres seguir el programa? (S/N): ") == "S":
     b=float(input("Introduce el segundo número: "))
     print(f"El resultado de la suma es {a+b}")
     print("")
+print("Programa finalizado.")

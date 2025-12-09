@@ -1,9 +1,10 @@
-# 47: Realiza un programa donde el usuario introduzca por teclado 2 intervalos, por pantalla se debe 
-# mostrar el rango de números teniendo en cuenta que se a<b la secuencia será incremental y si a>b 
-# la secuencia en descenso. Respeta el formato de salida.
+# 62:  Realiza un programa que pida dos números por teclado y presente por pantalla qué números 
+# hay pares e impares en ese rango. Utiliza for. Contempla si primer valor es superior al segundo.
 
-num1=int(input("Introduce el primer número: "))
-num2=int(input("Introduce el segundo número: "))
+num1=int(input("Introduce el primer valor: "))
+num2=int(input("Introduce el segundo valor: "))
+par=""
+impar=""
 numsalida=""
 
 if num1 < num2:
@@ -26,3 +27,6 @@ else:
             numsalida=str(numsalida)+"-"+str(indice)
             indice=indice-1
 print(f"{numsalida}")
+
+print(f"Los números pares son: {par}")
+print(f"Los números impares son: {impar}")
